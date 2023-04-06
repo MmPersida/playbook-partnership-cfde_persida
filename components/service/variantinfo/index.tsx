@@ -126,12 +126,6 @@ export const VariantInfo = MetaNode('VariantInfo')
     )
   })
   .build()
-  /*
-  <th>Normalized Effect Size (nes)</th>
-  <th>p-value (sig)</th>
-  <td style={{verticalAlign: 'center', borderRight: '2px solid lightgrey', minWidth: '70px', fontWeight:'normal'}}>{xqtlEvidence.entContent.eQTL.nes}</td>
-  <td style={{verticalAlign: 'center', borderRight: '2px solid lightgrey', minWidth: '70px', fontWeight:'normal'}}>{xqtlEvidence.entContent.eQTL.sig}</td>
-  */
 
   export const GetxQTL_EvidencesDataForVariantInfo = MetaNode('GetxQTL_EvidencesDataForVariantInfo')
   .meta({
